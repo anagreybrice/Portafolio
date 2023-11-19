@@ -1,0 +1,184 @@
+@font-face {
+    font-family: "astetik";
+    src: url("../css/Fuentes/modernaestheticdemoversionregular-2oaed.otf");
+}
+header{
+    display: table;
+    width: 100%;
+    height: 600px;
+    background-color:rgb(255, 255, 255);
+    background-size: 100% 100%;
+    text-align: center;
+   
+  }
+  nav ol li {
+    list-style: none;
+  }
+  
+  nav ol{
+    display: flex;
+  }
+ 
+  nav {
+    background-color: transparent;
+    opacity: 0.5;
+    
+  }
+  nav ol li a{
+    text-decoration: none;
+    padding: 15px 20px 15px 0px;
+    display: table;
+    color: rgb(0, 0, 0);
+    align-items: end;
+    position: sticky;
+  }
+  .pcompleta{
+    display:table;
+    width: 100%;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    margin: none;
+}
+h1{
+    font-family: "astetik";
+    font-size: 10em;
+    color: rgb(96, 6, 123);
+    letter-spacing: 5cm;
+
+}
+
+h2{
+
+    margin-bottom: none;
+    font-family: "astetik";
+    font-size: 4em;
+    color: rgb(96, 6, 123);
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: 15px;
+   
+    }
+
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.3em;
+    color: black;
+    margin-top: 1%;
+}
+  
+.cartas,#tra{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: space-between;
+}
+.card{
+    margin-left: 1% !important;
+    margin-right:1% !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    box-sizing: 10px !important;
+    flex-grow: 1 !important;
+    flex-basis: 200 !important;
+    box-shadow: 0 0 10px 2px rgb(117, 108, 119) !important;
+    width: 200px !important;
+    height: 350px !important;
+  }
+  
+  #tra .card{
+    margin-left: 1% !important;
+    margin-right:1% !important;
+    margin-top: 3% !important;
+    margin-bottom: 3% !important;
+    box-sizing: 10px !important;
+    flex-grow: 1 !important;
+    flex-basis: 200 !important;
+    box-shadow: 0 0 10px 2px rgb(114, 106, 117) !important;
+    width: 300px !important;
+    height: 250px !important;
+
+  }
+  #tra p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 1em;
+    color: rgb(0,0,0);
+    margin-top: 0%;
+    margin-bottom: 0%;
+  }
+#contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+  form {
+    
+    text-align: left;
+    width: 400px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 0%;
+  }
+  label {
+    font-weight: bold;
+  }
+  
+  input, textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+  }
+  
+  input[type="submit"] {
+    background-color:rgb(96, 6, 123);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  input:focus , textarea:focus, footer img:focus {
+    border: 1px solid #000;
+      
+  }
+  
+  input:hover,textarea:hover{
+    box-shadow: 0 0 10px 2px #ccc
+  }
+  footer img:hover{
+    box-shadow: 0 0 10px 2px #3D0C11;
+  }
+
+  footer{
+    display: table;
+    justify-content:center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 1.3;
+    background-color:rgb(96, 6, 123);
+    height: 150px;
+    font-family: 'Inconsolata', monospace;
+  }
+  footer img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 3px;
+    box-shadow: 0 0 10px 2px #ccc
+  }
+
+.tracking-in-contract{animation:tracking-in-contract 3s linear both} 
+@keyframes tracking-in-contract{0%{letter-spacing:.6em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}
+
+.scale-up-center{animation:scale-up-center 1s; } 
+@keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
